@@ -291,3 +291,429 @@ text-decoration: none;
     margin-bottom: 41px;
     
 }
+
+.parent{
+    width: 100%;
+    height: auto;
+    
+}
+
+.parent__heading{
+    text-align: center;
+    margin-top: 60px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.parent__body{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    row-gap: 30px;
+    column-gap: 30px;   
+}
+
+.card{
+    width: 300px;
+    height: auto;
+    background-color: gray;
+    padding: 30px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.card__image{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card__heading{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.card__description{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.card__footer {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.button{
+    color: white;
+    padding: 8px 15px;
+}
+
+.button--red{
+    background-color: red;
+    margin-right: 15px;
+}
+
+.button--black{
+    background-color: black;
+}
+
+/* detyra per me ba slice 1 template me bem dhe display
+flex */
+
+
+.body{
+    margin-left: 67px;
+}
+
+.main{
+width: 1440px;
+height: 810px;
+background: #F4F6F7;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar__logo{
+    margin-right: auto;
+    margin-top: 40px;
+    margin-left: 135px;
+}
+
+.navbar__list li{
+    display: inline-block;
+ }
+
+ .navbar__list{
+     margin-top: 53px;
+     margin-right: 135px;
+ }
+
+.navbar__links{
+    text-decoration: none;
+    color: black;
+    padding-left: 50px;
+    
+}
+
+.agency{
+    display: flex;
+}
+
+.agency__content{
+    margin-top: 228px;
+    margin-left: 135px;
+}
+
+.agency__image{
+    margin-left: auto;
+    margin-top: 154.38px;
+    margin-right: 136.7px;
+}
+
+.h4{
+font-family: Avenir Next;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: #2557AB;
+margin-bottom: 5px;
+}
+
+.h1{
+font-family: Avenir Next;
+font-style: normal;
+font-weight: bold;
+font-size: 46px;
+line-height: 63px;
+letter-spacing: -1px;
+color: #13253A;
+margin-bottom: 10px;
+}
+
+.paragraph{
+font-family: Avenir Next;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 27px;
+color: #13253A;
+mix-blend-mode: normal;
+opacity: 0.9;
+margin-bottom: 20px;
+}
+
+.button--orange{
+background: #FF7F57;
+border-radius: 3px;
+font-family: Avenir Next;
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 23px;
+text-align: center;
+padding: 19px 42px 18px 42px;
+color: #FFFFFF;
+}
+
+.services{
+    width: 1440px;
+}
+
+.h4--position{
+    text-align: center;
+    margin-top: 110px;
+}
+
+.h2{
+font-family: Avenir Next;
+font-style: normal;
+font-weight: normal;
+font-size: 38px;
+line-height: 52px;
+text-align: center;
+letter-spacing: -0.5px;
+color: #13253A;
+margin-bottom: 30px;
+}
+
+.services__chooice{
+    display: flex;
+    justify-content: center;
+}
+
+.h3{
+font-family: Avenir Next;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: #3B4D6C;
+}
+
+.paragraph--position{
+    text-align: center;
+}
+
+.services__responsive{
+    margin-right: 30px;
+}
+
+.services__design{
+    margin-right: 30px;
+}
+
+.services__icons{
+    margin-left: 110px;
+    margin-bottom: 20px;
+}
+
+.h3--position{
+    margin-bottom: 5px;
+}
+
+.services__footer{
+    width: 1440px;
+    height: 205px;
+    display: flex;
+    justify-content: center;
+    background: #F4F6F7;
+    margin-top: 110px;
+}
+
+.h5{
+font-family: Avenir Next;
+font-style: normal;
+font-weight: normal;
+font-size: 46px;
+line-height: 63px;
+color: #13253A;
+}
+
+.specify{
+    color: #FF7F57;
+}
+
+.services__apps{
+    margin-right: 125px;
+    margin-top: 60px;
+}
+
+.services__experience{
+    margin-right: 157px;
+    margin-top: 60px;
+}
+
+.services__served{
+    margin-top: 60px;
+}
+
+.about{
+    width: 1440px;
+    margin-top: 99px;
+}
+
+.h6{
+font-family: Avenir Next;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 52px;
+color: #13253A;
+margin-bottom: 30px;
+}
+
+.paragraph--height{
+font-family: Avenir Next;
+font-style: italic;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+color: #13253A;
+mix-blend-mode: normal;
+opacity: 0.9;
+margin-bottom: 20px;
+}
+
+.about__content{
+    display: flex;
+    justify-content: center;
+}
+
+.about__heading{
+    text-align: center;
+}
+
+.about__firstp{
+    margin-right: 30px;
+}
+
+.about__image{
+    padding-right: 73px;
+}
+
+.about__icons{
+    margin-left: 235px;
+    margin-top: 56px;
+}
+
+.about__line{
+    margin-top: 100px;
+    margin-left: 135px;
+}
+
+.commitment{
+    width: 1440px;
+    margin-top: 100px;
+    margin-left: 135px;
+    display: flex;
+}
+
+.commitment__tickp{
+    display: flex;
+}
+
+.commitment__paragraph{
+font-family: Avenir Next;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 27px;
+color: #13253A;
+margin-left: 15px;
+}
+
+.commitment__icons{
+    margin-top: 5px;
+}
+
+.commitment__image{
+    margin-left: 100px;
+}
+
+.start{
+ background: rgba(255, 127, 87, 1);
+width: 1440px;
+margin-top: 120px;
+}
+
+.h4--white{    
+color: #FFFFFF;
+text-align: center;
+padding-top: 100px;
+padding-bottom: 5px;
+}
+
+.h1--white{
+color: white;
+text-align: center;
+padding-bottom: 10px;
+}
+
+.paragraph--white{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.button--blue{
+    background: #2557AB;
+    margin-left: 552px;
+    padding: 19px 102px 18px 102px;
+    margin-bottom: 100px;
+}
+
+.contact{
+    width: 1440px;
+    background: #11364E;
+}
+
+#text{
+    background: #11364E;
+    border: 0;
+    border-bottom: 1px solid gray;
+    margin-left: 535px;
+}
+
+.h2--white{
+font-family: Avenir Next;
+font-style: normal;
+font-weight: normal;
+font-size: 38px;
+line-height: 52px;
+text-align: center;
+letter-spacing: -0.5px;
+color: #FFFFFF;
+padding-top: 140px;
+}
+
+.informations{
+font-family: Avenir Next;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+color: #FFFFFF;
+margin-left: 535px;
+padding-top: 40px;
+padding-bottom: 10px;
+}
+
+.button--contact{
+background: #FF7F57;
+border-radius: 3px;
+padding: 19px 100.75px 18px 99.25px;
+margin-top: 36px;
+margin-left: 535px;
+margin-bottom: 167px;
+}
